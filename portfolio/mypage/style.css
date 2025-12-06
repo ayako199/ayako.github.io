@@ -1,0 +1,205 @@
+/* すべてのページに適用される設定　*/
+ html{
+    font-size: 16px;
+    font-family: sans-serif;
+ }
+*{
+    box-sizing: border-box;
+}
+ p, li , td{
+    line-height: 1.7;
+}
+a:link {
+    color: #F07D34;
+    text-decoration: none;
+}
+a:visited {
+    color: #F07D34;
+    text-decoration: none;
+}
+a:hover{
+    color: #F07D34;
+    text-decoration: underline;
+}
+a:active {
+    color: #F07D34;
+    text-decoration: underline;
+}
+.image{
+    max-width: 100%;
+    width: 1000px;
+    object-fit: cover;
+}
+h3{
+    margin: 60px 0 20px 0;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+
+ /* すべてのページに適用 - ヘッダー　*/
+ .header{
+    padding-top: 40px;
+    background-image: url(../mypage/写真/stripeのコピー.png);
+    background-repeat: repeat-x;
+ }
+.logo{
+    text-align: center;
+}
+.nav ul {
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.nav a:link{
+    color: #253958;
+}
+.nav a:visited{
+    color: #253958;
+}
+.nav a:hover{
+    text-decoration: none;
+}
+.nav.a:active{
+    text-decoration: none;
+}
+
+
+ /* すべてのページに適用 - ヒーロー　*/
+.hero{
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+.hero.index{
+    padding: 287px 0;
+    background-image: url(../mypage/写真/dessin2.jpg);
+}
+.hero.work{
+    background-image: url(../mypage/写真/poster2.jpg);
+}
+.hero.volunteer{
+    background-image: url(../mypage/写真/集合.JPG);
+}
+.hero.art1{
+    background-image: url(../mypage/写真/painting2.jpg);
+}
+
+ /* すべてのページに適用 - メイン　*/
+ main{
+    margin: 0 auto 0 auto;
+    max-width: 1000px;
+ }
+ main h1{
+    margin: 60px 0 20px 0;
+    border-bottom: 2px solid #253958;
+    color:#253958;
+    font-size: 1.3rem;
+    
+ }
+ .aboutindex{
+     justify-content: center;
+ }
+
+ /* すべてのページに適用 - フッター　*/
+.gotop{
+    text-align: center;
+}
+.copyright{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #253958;
+    color: #FFFFFF;
+    text-align: center;
+}
+ /* 個別のスタイル */
+ /* index.html */
+.my-info{
+    border-collapse: collapse;
+    width: 100%;
+    justify-content: center;
+}
+.my-info th, .my-info td{
+     border: 1px solid  #DBDBDB;
+     padding: 20px;
+}
+.my-info th{
+    width: 112px;
+    text-align: left;
+    vertical-align: top;
+}
+.bigtext{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold; 
+    text-decoration: none !important;
+    
+}
+.middletext{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #253958; 
+}
+.poster{
+       max-width: 50%;
+    width: 500px;
+    object-fit: cover;}
+    
+/* menu.html */
+.art{
+      max-width: 100%;
+    width: 1000px;
+    object-fit: cover;
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:80px 40px
+}
+/* work.html */
+.experience {
+  display: flex;          
+  align-items: center;    
+}
+
+.experience .left-image  img{    
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.experience .right-text {
+  width: 50%;              
+  font-size: 1.5rem;         
+  text-align: left;        
+  padding: 20px;
+  box-sizing: border-box;
+}
+.right-text{
+    font-weight: bold;
+    color: #253958; 
+}
+.moji{
+    background-color: orange; 
+  padding: 20px;           
+  margin: 40px 0;    
+  color: white;       
+}
+/* volunteer.html */
+.moji2{
+ background-color: #253958; 
+  padding: 30px;           
+  margin: 40px 0;    
+  color: white;
+}
+/* phonhtml */
